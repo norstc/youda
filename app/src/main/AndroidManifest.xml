@@ -16,8 +16,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DisplayMessageActivity" android:parentActivityName=".MainActivity" >
-
+        <activity
+            android:name=".DisplayMessageActivity"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".HelloToastActivity"
+            android:label="@string/title_activity_hello_toast"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.norstc.youda.MainActivity" />
         </activity>
     </application>
 
