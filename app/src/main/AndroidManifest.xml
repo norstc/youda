@@ -18,7 +18,7 @@
         </activity>
         <activity
             android:name=".DisplayMessageActivity"
-            android:parentActivityName=".MainActivity"></activity>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".HelloToastActivity"
             android:label="@string/title_activity_hello_toast"
@@ -28,6 +28,22 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.norstc.youda.MainActivity" />
         </activity>
+        <activity
+            android:name=".YoudaActivity"
+            android:label="@string/title_activity_youda"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SelectYoudaActivity"
+            android:label="@string/title_activity_select_youda"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.norstc.youda.MainActivity" />
+        </activity>
+        <activity android:name=".ListYoudaActivity"
+            android:parentActivityName=".MainActivity"></activity>
     </application>
 
 </manifest>

@@ -31,4 +31,19 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, HelloToastActivity.class);
         startActivity(intent);
     }
+
+    public void toYouda(View view) {
+        Intent intent = new Intent(this, YoudaActivity.class);
+        startActivity(intent);
+    }
+
+    public void toSelectYouda(View view) {
+        Intent intent = new Intent(this,SelectYoudaActivity.class);
+        startActivity(intent);
+    }
+
+    public void toListYouda(View view){
+        Intent intent = new Intent(this,ListYoudaActivity.class);
+        startActivity(intent);
+    }
 }
