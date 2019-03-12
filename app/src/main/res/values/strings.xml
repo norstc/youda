@@ -106,4 +106,5 @@
     <string name="button_goto_listyouda">ListYouda</string>
     <string name="button_youda_detail">Detail</string>
     <string name="button_youda_order">Order</string>
+    <string name="imagebutton_youdalist">youdalist</string>
 </resources>

@@ -12,13 +12,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="@string/button_youda_detail" />
+        android:text="@string/button_youda_detail"
+        android:textSize="18sp" />
 
     <ImageButton
         android:id="@+id/imageButton2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:contentDescription="@string/imagebutton_youdalist"
         app:srcCompat="@android:drawable/btn_minus" />
 
     <Button
@@ -26,6 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="@string/button_youda_order" />
+        android:text="@string/button_youda_order"
+        android:textSize="18sp" />
 
 </LinearLayout>
